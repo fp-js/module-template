@@ -1,11 +1,11 @@
 # MODULE_NAME
 
-[![Build Status](https://travis-ci.org/stoeffel/MODULE_NAME.svg)](https://travis-ci.org/stoeffel/MODULE_NAME) [![npm version](https://badge.fury.io/js/MODULE_NAME.svg)](http://badge.fury.io/js/MODULE_NAME)
+[![Build Status](https://travis-ci.org/ORG/MODULE_NAME.svg)](https://travis-ci.org/ORG/MODULE_NAME) [![npm version](https://badge.fury.io/js/MODULE_NAME.svg)](http://badge.fury.io/js/MODULE_NAME)
 > This is a template repo for fp-dom.
 
 ## TODO
 
-- change all appearance of `MODULE_NAME` and `FUNC`
+- change all appearance of `MODULE_NAME`, `ORG` and `FUNC`
 - change the description in the `README.markdown` and `package.json`
 - delete this [todo](#todo) list.
 
