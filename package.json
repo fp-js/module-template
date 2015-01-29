@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fp-js/module-template.git"
+    "url": "https://github.com/ORG/MODULE_NAME.git"
   },
   "keywords": [
     "fp-dom",
@@ -16,14 +16,14 @@
     "dom"
   ],
   "contributors": [
-    "hemanth.hm <hemanth.hm@gmail.com> (http://www.h3manth.com),
-    "stoeffel <schtoeffel@gmail.com> (http://www.schtoeffel.ch)
+    "hemanth.hm <hemanth.hm@gmail.com> (http://www.h3manth.com)",
+    "stoeffel <schtoeffel@gmail.com> (http://www.schtoeffel.ch)"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fp-js/module-template/issues"
+    "url": "https://github.com/ORG/MODULE_NAME/issues"
   },
-  "homepage": "https://github.com/fp-js/module-template",
+  "homepage": "https://github.com/ORG/MODULE_NAME",
   "devDependencies": {
     "gulp": "^3.8.10",
     "gulp-6to5": "^3.0.0",
