@@ -1,9 +1,9 @@
+import test from 'prova';
 import { FUNC } from './';
 
-describe('MODULE_NAME', () => {
 
-  it('should do stuff', () => {
-    expect(true).toBeTruthy();
-  });
-
+test('MODULE_NAME', (t) => {
+  t.plan(1);
+ 
+  t.equal(typeof document, 'object');
 });

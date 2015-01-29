@@ -1,6 +1,6 @@
 var gulp = require('gulp'),
   watch = require('gulp-watch'),
-  jasmine = require('gulp-jasmine'),
+  run = require('gulp-run'),
   sourcemaps = require('gulp-sourcemaps'),
   rename = require('gulp-rename'),
   to5 = require('gulp-6to5');
@@ -20,7 +20,7 @@ gulp.task('6to5', function() {
 
 gulp.task('test', ['6to5'], function() {
   return gulp.src('test.js')
-    .pipe(jasmine());
+    .pipe(run('node test -b -l phantom -e -q'));
 });
 
 gulp.task('default', ['test'], function() {
