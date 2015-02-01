@@ -2,14 +2,12 @@
 
 var _interopRequire = function (obj) { return obj && obj.__esModule ? obj["default"] : obj; };
 
-var test = _interopRequire(require("prova"));
+var assert = _interopRequire(require("assert"));
 
 var FUNC = require("./").FUNC;
 
 
 
-test("MODULE_NAME", function (t) {
-  t.plan(1);
-
-  t.equal(typeof document, "object");
+it("MODULE_NAME", function () {
+  assert.equal(typeof document, "object");
 });
