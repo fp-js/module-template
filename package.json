@@ -25,15 +25,15 @@
   },
   "homepage": "https://github.com/ORG/MODULE_NAME",
   "devDependencies": {
-    "gulp": "^3.8.10",
-    "gulp-rename": "^1.2.0",
-    "gulp-babel": "^5.0.0",
-    "gulp-run": "^1.6.6",
-    "gulp-sourcemaps": "^1.3.0",
-    "gulp-watch": "^4.1.0",
-    "mochify": "^2.2.0"
+    "gulp": "3.9.0",
+    "gulp-rename": "1.2.2",
+    "gulp-babel": "5.2.1",
+    "gulp-run": "1.6.11",
+    "gulp-sourcemaps": "1.5.2",
+    "gulp-watch": "4.3.5",
+    "mochify": "2.13.0"
   },
   "dependencies": {
-    "fj-curry": "^1.0.0"
+    "fj-curry": "1.0.0"
   }
 }
